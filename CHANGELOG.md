@@ -1,9 +1,15 @@
-#Change Log
+# Change Log
 This project adheres to [Semantic Versioning](http://semver.org/).
 
 This CHANGELOG follows the format listed at [Keep A Changelog](http://keepachangelog.com/)
 
 ## [Unreleased]
+
+### Breaking Change
+- bumped requirement of `sensu-plugin` to 2.x (@majormoses)
+
+### Fixed
+- check-mongodb-metric.rb: make `--metric` required since it is (@majormoses)
 
 ## [1.4.0] - 2017-09-05
 ### Added
